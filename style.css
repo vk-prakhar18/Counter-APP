@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: midnightblue;
+    font-size: 5rem;
+    height: 6rem;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    font-size: 1rem;
+}
+.buttons {
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center;     /* center vertically (if needed) */
+    gap: 20px;               /* space between divs */
+    margin-top: 3rem;
+}
+img{
+    height: 165px;
+    width: 165px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.buttons :hover{
+    opacity: 50%;
+    background-color: midnightblue;
+    border-radius: 50%;
+}
+#counting{
+    color: black;
+        font-size: 7rem;
+        padding-top: 4rem;
+}

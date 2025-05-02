@@ -1,0 +1,2 @@
+Counter App
+A basic javascript based app where you can add subtract and reset the numbers
