@@ -1,3 +1,4 @@
+alert("This is a counting app! You can use it for conveinence where every number counts");
 let count = 0;
 const counting = document.getElementById('counting');
 
